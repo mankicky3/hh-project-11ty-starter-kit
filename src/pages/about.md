@@ -141,7 +141,7 @@ If publishing from Netlify, the included `netlify.toml` file will create a redir
 
 ### Social Share Preview Images
 
-Upon use of the build command, social share preview images are generated for each page + the home page, and available in `public/previews/[title-as-slug].png`.
+Upon use of the build command, social share preview images are generated for each page + the home page, and available in `docs/previews/[title-as-slug].png`.
 
 Here's an example of the default template:
 
@@ -149,7 +149,7 @@ Here's an example of the default template:
 
 As of v0.5.0, these images now use my Eleventy plugin - `@11tyrocks/eleventy-plugin-social-images` - with the default blue theme and a customized template.
 
-Any changes made can be previewed by running the build command and reviewing the contents of `public/previews/`.
+Any changes made can be previewed by running the build command and reviewing the contents of `docs/previews/`.
 
 [Review the plugin docs](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-social-images) for the full details of how to customize the behavior, and read on to learn how this starter is currently setup for the social images.
 
@@ -185,7 +185,7 @@ Or, remove the plugin if you are not in need of code highlighting.
 ### Overrides
 
 - **Input directory**: `src`
-- **Output directory**: `public`
+- **Output directory**: `docs`
 - **Layout directory**: `_layouts`
 
 Also, `markdownLibrary` is extended to add the `markdownItAnchor` plugin for [anchor links](#anchor-links).
