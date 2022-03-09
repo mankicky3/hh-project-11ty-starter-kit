@@ -2,7 +2,7 @@ module.exports = {
   url: process.env.URL || "http://localhost:8080",
   siteName: "Hacking History Starter Kit",
   siteDescription:
-    "Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.",
-  authorName: "Matt Price ",
-  twitterUsername: "5t3ph", // no `@`
+  "Quickly launch an 11ty-generated static site. Should be simple enough for students to use, but includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.",
+  authorName: "Matt Price via @5t3ph",
+  twitterUsername: "mattpriceuoft", // no `@`
 };
