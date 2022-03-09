@@ -58,6 +58,7 @@ module.exports = function (eleventyConfig) {
 
   return {
     passthroughFileCopy: true,
+    pathPrefix: "/hh-project-11ty-starter-kit",
     dir: {
       input: "src",
       output: "docs",
