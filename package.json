@@ -52,5 +52,8 @@
   "browserslist": [
     "> 0.5%",
     "not IE 11"
-  ]
+  ],
+  "dependencies": {
+    "markdown-it-footnote": "^3.0.3"
+  }
 }

@@ -7,7 +7,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const slugify = require("slugify");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-
+const markdownItFootnote = require("markdown-it-footnote")
 // Local utilities/data
 const packageVersion = require("./package.json").version;
 
@@ -53,7 +53,7 @@ module.exports = function (eleventyConfig) {
         strict: true,
         remove: /["]/g,
       }),
-  });
+  }).use(markdownItFootnote);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   return {
