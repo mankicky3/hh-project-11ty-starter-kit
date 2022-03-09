@@ -1,5 +1,5 @@
 module.exports = {
-  url: process.env.URL || "http://localhost:8080",
+  url: process.env.URL || "https://hackinghistory.github.io/hh-project-11ty-starter-kit/",
   siteName: "Hacking History Starter Kit",
   siteDescription:
   "Quickly launch an 11ty-generated static site. Should be simple enough for students to use, but includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.",
