@@ -45,6 +45,7 @@ module.exports = function (eleventyConfig) {
     permalink: markdownItAnchor.permalink.ariaHidden({
       class: "tdbc-anchor",
       space: false,
+      symbol: "🔗",
     }),
     level: [1, 2, 3],
     slugify: (str) =>
