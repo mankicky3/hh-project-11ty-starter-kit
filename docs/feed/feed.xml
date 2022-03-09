@@ -1,109 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Hacking History Starter Kit</title>
-	<subtitle>Quickly launch an 11ty-generated static site. Should be simple enough for students to use, but includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.</subtitle>
+	<title>World War II and the Eastern Front</title>
+	<subtitle>Mapping the Eastern Front to showcase the scale of the conflict in the region.</subtitle>
 	
 	<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/feed/" rel="self"/>
 	<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/"/>
-	<updated>2022-03-09T03:21:07Z</updated>
+	<updated>2022-03-09T20:34:17Z</updated>
 	<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/</id>
 	<author>
-		<name>Matt Price via @5t3ph</name>
+		<name>Jakub Berkowicz</name>
 	</author>
-	
-	<entry>
-		<title>Style Demo</title>
-		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/"/>
-		<updated>2022-03-09T01:50:06Z</updated>
-		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/</id>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;Credit for the kitchen sink elements to the &lt;a href=&quot;https://github.com/pmarsceill/just-the-docs&quot;&gt;&amp;quot;Just the Docs&amp;quot;&lt;/a&gt; project by &lt;a href=&quot;https://github.com/pmarsceill&quot;&gt;pmarsceill&lt;/a&gt;, and to the original author of the starterkit.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#introduction&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Most of your time on this project will be spent writing in markdown. This page lives here as a reminder of how to write in markdown. Please note that I&#39;ve appended a brief discussion of how to use footnotes here.&lt;/p&gt;
-&lt;h1 id=&quot;header-1&quot; tabindex=&quot;-1&quot;&gt;Header 1&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#header-1&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.&lt;/p&gt;
-&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;s&gt;strikethrough&lt;/s&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hackinghistory.github.io/about&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;header-2&quot; tabindex=&quot;-1&quot;&gt;Header 2&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#header-2&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a blockquote following a header.&lt;/p&gt;
-&lt;p&gt;When something is important enough, you do it even if the odds are not in your favor.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;header-3&quot; tabindex=&quot;-1&quot;&gt;Header 3&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#header-3&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Javascript code with syntax highlighting.&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;fun&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  dateformat&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;i18n &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./lang/&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; l&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Ruby code with syntax highlighting&lt;/span&gt;&lt;br /&gt;GitHubPages&lt;span class=&quot;token double-colon punctuation&quot;&gt;::&lt;/span&gt;Dependencies&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;gems&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;gem&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; version&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;br /&gt;  s&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add_dependency&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;gem&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;= &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token delimiter punctuation&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;token delimiter punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4&gt;Header 4&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
-&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
-&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5&gt;Header 5&lt;/h5&gt;
-&lt;ol&gt;
-&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
-&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
-&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;theres-a-horizontal-rule-below-this&quot; tabindex=&quot;-1&quot;&gt;There&#39;s a horizontal rule below this.&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#theres-a-horizontal-rule-below-this&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;h3 id=&quot;here-is-an-unordered-list&quot; tabindex=&quot;-1&quot;&gt;Here is an unordered list:&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#here-is-an-unordered-list&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Item foo&lt;/li&gt;
-&lt;li&gt;Item bar&lt;/li&gt;
-&lt;li&gt;Item baz&lt;/li&gt;
-&lt;li&gt;Item zip&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;and-an-ordered-list&quot; tabindex=&quot;-1&quot;&gt;And an ordered list:&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#and-an-ordered-list&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Item one&lt;/li&gt;
-&lt;li&gt;Item two&lt;/li&gt;
-&lt;li&gt;Item three&lt;/li&gt;
-&lt;li&gt;Item four&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;and-a-nested-list&quot; tabindex=&quot;-1&quot;&gt;And a nested list:&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#and-a-nested-list&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;level 1 item
-&lt;ul&gt;
-&lt;li&gt;level 2 item&lt;/li&gt;
-&lt;li&gt;level 2 item
-&lt;ul&gt;
-&lt;li&gt;level 3 item&lt;/li&gt;
-&lt;li&gt;level 3 item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;level 1 item
-&lt;ul&gt;
-&lt;li&gt;level 2 item&lt;/li&gt;
-&lt;li&gt;level 2 item&lt;/li&gt;
-&lt;li&gt;level 2 item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;level 1 item
-&lt;ul&gt;
-&lt;li&gt;level 2 item&lt;/li&gt;
-&lt;li&gt;level 2 item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;level 1 item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;small-image&quot; tabindex=&quot;-1&quot;&gt;Small Image&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#small-image&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://picsum.photos/200&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;large-image&quot; tabindex=&quot;-1&quot;&gt;Large image&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#large-image&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://picsum.photos/800/300&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;footnotes&quot; tabindex=&quot;-1&quot;&gt;Footnotes&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#footnotes&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;We use a &lt;a href=&quot;https://github.com/markdown-it/markdown-it-footnote&quot;&gt;plugin&lt;/a&gt; for rendering simple footnotes. It&#39;s not ideal but at lest youu can insert references here, which I find somewhat straightforward to do &lt;a href=&quot;https://forums.zotero.org/discussion/93521/available-for-beta-testing-markdown-export-of-notes&quot;&gt;using the technique described here&lt;/a&gt;. Howver, it could be painful or at least awkward if you&#39;re using html format instead.&lt;/p&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>About</title>
 		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/about/"/>
-		<updated>2022-03-09T03:21:07Z</updated>
+		<updated>2022-03-09T19:15:12Z</updated>
 		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/about/</id>
 		<content type="html">&lt;h2 id=&quot;intro-to-jumpstart&quot; tabindex=&quot;-1&quot;&gt;Intro to Jumpstart&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/about/#intro-to-jumpstart&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This project starter kit, &lt;a href=&quot;https://github.com/5t3ph/11ty-netlify-jumpstart&quot;&gt;forked from the original 11ty jumpstart repo&lt;/a&gt;, is intended to be &lt;em&gt;just enough&lt;/em&gt; to be a functional site using 11ty, and also to introduce essential 11ty features.&lt;/p&gt;
@@ -252,6 +163,104 @@ Prettier extension and update your VSCode settings to &amp;quot;Format on Save&a
 &lt;blockquote&gt;
 &lt;p&gt;I spent a decade creating WordPress themes and plugins then flipped to product development + leading development of a multi-platform enterprise design system. My intro to Jamstack was with Gatsby, but 11ty fills a special place that is so needed for truly static sites. I&#39;m in love, and I think you will be, too.&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Style Demo</title>
+		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/"/>
+		<updated>2022-03-09T19:15:12Z</updated>
+		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Credit for the kitchen sink elements to the &lt;a href=&quot;https://github.com/pmarsceill/just-the-docs&quot;&gt;&amp;quot;Just the Docs&amp;quot;&lt;/a&gt; project by &lt;a href=&quot;https://github.com/pmarsceill&quot;&gt;pmarsceill&lt;/a&gt;, and to the original author of the starterkit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#introduction&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Most of your time on this project will be spent writing in markdown. This page lives here as a reminder of how to write in markdown. Please note that I&#39;ve appended a brief discussion of how to use footnotes here.&lt;/p&gt;
+&lt;h1 id=&quot;header-1&quot; tabindex=&quot;-1&quot;&gt;Header 1&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#header-1&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.&lt;/p&gt;
+&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;s&gt;strikethrough&lt;/s&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hackinghistory.github.io/about&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;header-2&quot; tabindex=&quot;-1&quot;&gt;Header 2&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#header-2&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote following a header.&lt;/p&gt;
+&lt;p&gt;When something is important enough, you do it even if the odds are not in your favor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;header-3&quot; tabindex=&quot;-1&quot;&gt;Header 3&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#header-3&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Javascript code with syntax highlighting.&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;fun&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  dateformat&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;i18n &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./lang/&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; l&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Ruby code with syntax highlighting&lt;/span&gt;&lt;br /&gt;GitHubPages&lt;span class=&quot;token double-colon punctuation&quot;&gt;::&lt;/span&gt;Dependencies&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;gems&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;gem&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; version&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;br /&gt;  s&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add_dependency&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;gem&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;= &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token delimiter punctuation&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;token delimiter punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Header 4&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Header 5&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;theres-a-horizontal-rule-below-this&quot; tabindex=&quot;-1&quot;&gt;There&#39;s a horizontal rule below this.&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#theres-a-horizontal-rule-below-this&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;here-is-an-unordered-list&quot; tabindex=&quot;-1&quot;&gt;Here is an unordered list:&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#here-is-an-unordered-list&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Item foo&lt;/li&gt;
+&lt;li&gt;Item bar&lt;/li&gt;
+&lt;li&gt;Item baz&lt;/li&gt;
+&lt;li&gt;Item zip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;and-an-ordered-list&quot; tabindex=&quot;-1&quot;&gt;And an ordered list:&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#and-an-ordered-list&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Item one&lt;/li&gt;
+&lt;li&gt;Item two&lt;/li&gt;
+&lt;li&gt;Item three&lt;/li&gt;
+&lt;li&gt;Item four&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;and-a-nested-list&quot; tabindex=&quot;-1&quot;&gt;And a nested list:&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#and-a-nested-list&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;level 1 item
+&lt;ul&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;li&gt;level 2 item
+&lt;ul&gt;
+&lt;li&gt;level 3 item&lt;/li&gt;
+&lt;li&gt;level 3 item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;level 1 item
+&lt;ul&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;level 1 item
+&lt;ul&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;level 1 item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;small-image&quot; tabindex=&quot;-1&quot;&gt;Small Image&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#small-image&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://picsum.photos/200&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;large-image&quot; tabindex=&quot;-1&quot;&gt;Large image&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#large-image&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://picsum.photos/800/300&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;footnotes&quot; tabindex=&quot;-1&quot;&gt;Footnotes&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/#footnotes&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We use a &lt;a href=&quot;https://github.com/markdown-it/markdown-it-footnote&quot;&gt;plugin&lt;/a&gt; for rendering simple footnotes. It&#39;s not ideal but at lest youu can insert references here, which I find somewhat straightforward to do &lt;a href=&quot;https://forums.zotero.org/discussion/93521/available-for-beta-testing-markdown-export-of-notes&quot;&gt;using the technique described here&lt;/a&gt;. Howver, it could be painful or at least awkward if you&#39;re using html format instead.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Test</title>
+		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/testpage/"/>
+		<updated>2022-03-09T20:34:17Z</updated>
+		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/testpage/</id>
+		<content type="html">&lt;p&gt;AHHHHHHHHHHHHHHHHHHHH&lt;/p&gt;
 </content>
 	</entry>
 </feed>
