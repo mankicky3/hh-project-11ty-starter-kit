@@ -7,7 +7,7 @@ description: 'A demo of the "Page" template and kitchen sink sample of styled el
 
 # Introduction
 
-Most of your time on this project will be spent 
+Most of your time on this project will be spent writing in markdown. This page lives here as a reminder of how to write in markdown. Please note that I've appended a brief discussion of how to use footnotes here.  
 
 # Header 1
 
@@ -97,3 +97,6 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ### Large image
 
 ![](https://picsum.photos/800/300)
+
+## Footnotes
+We use a [plugin](https://github.com/markdown-it/markdown-it-footnote) for rendering simple footnotes. It's not ideal but at lest youu can insert references here, which I find somewhat straightforward to do [using the technique described here](https://forums.zotero.org/discussion/93521/available-for-beta-testing-markdown-export-of-notes). Howver, it could be painful or at least awkward if you're using html format instead. 
