@@ -1,9 +1,13 @@
 ---
-title: "Hello World"
+title: "Style Demo"
 description: 'A demo of the "Page" template and kitchen sink sample of styled elements.'
 ---
 
-> Credit for the kitchen sink elements to the ["Just the Docs"](https://github.com/pmarsceill/just-the-docs) project by [pmarsceill](https://github.com/pmarsceill).
+> Credit for the kitchen sink elements to the ["Just the Docs"](https://github.com/pmarsceill/just-the-docs) project by [pmarsceill](https://github.com/pmarsceill), and to the original author of the starterkit.
+
+# Introduction
+
+Most of your time on this project will be spent 
 
 # Header 1
 
