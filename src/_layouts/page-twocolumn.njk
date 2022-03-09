@@ -1,0 +1,16 @@
+---
+layout: base.njk
+---
+{% include 'sitenav.njk' %}
+<main class="tdbc-column-container tbdc-offset-columns">
+  <aside>
+    
+    {{ content | toc | safe }}
+    </aside>
+  <div>
+  {% include 'header.njk' %}
+  <article class="tdbc-mx-auto">
+    {{ content | safe }}
+  </article>
+  </div>
+</main>

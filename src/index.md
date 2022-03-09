@@ -1,5 +1,5 @@
 ---
-layout: front-page.njk
+layout: frontpage
 ---
 
 1. [Clone this repository](https://github.com/HackingHistory/hh-project-11ty-starter-kit)

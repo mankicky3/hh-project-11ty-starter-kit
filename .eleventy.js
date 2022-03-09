@@ -10,12 +10,19 @@ const markdownItAnchor = require("markdown-it-anchor");
 const markdownItFootnote = require("markdown-it-footnote")
 // Local utilities/data
 const packageVersion = require("./package.json").version;
+const pluginTOC = require('eleventy-plugin-toc');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(socialImages);
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
-
+  eleventyConfig.addPlugin(pluginTOC, {
+  tags: ['h2', 'h3', 'h4'], // which heading tags are selected headings must each have an ID attribute
+  wrapper: 'nav',           // element to put around the root `ol`/`ul`
+  wrapperClass: 'toc',      // class for the element around the root `ol`/`ul`
+  ul: false,                // if to use `ul` instead of `ol`
+  flat: false,              // if subheadings should appear as child of parent or as a sibling
+})
   eleventyConfig.addWatchTarget("./src/sass/");
 
   eleventyConfig.addPassthroughCopy("./src/css");

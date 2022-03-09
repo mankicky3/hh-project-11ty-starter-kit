@@ -47,6 +47,10 @@ article {
   grid-template-columns: repeat(auto-fit, minmax(25ch, 1fr));
 }
 
+.tbdc-offset-columns {
+    grid-template-columns: 1fr 3fr;
+}
+
 // stylelint-disable-next-line selector-no-qualifying-type, selector-max-type
 ul.tdbc-column-container {
   padding-left: 0;
@@ -107,6 +111,9 @@ body.front-page {
     height: 12vmax;
     margin: 0 auto 2rem;
     background-color: green;
+    border-radius: 10px;
+    border: black 2px solid;
+    
   }
 
   .logo svg {

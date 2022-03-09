@@ -1,14 +1,22 @@
 ---
-title: "About"
-description: "A brief introduction to this starter kit."
+title: "Two Column Layout"
+description: "Review feature info and customization details."
+layout: page-twocolumn
 ---
+
 ## Intro to Jumpstart
 
-This project starter kit, [forked from the original 11ty jumpstart repo](https://github.com/5t3ph/11ty-netlify-jumpstart), is intended to be _just enough_ to be a functional site using 11ty, and also to introduce essential 11ty features.
+This jumpstart is intended to be _just enough_ to be a functional site/blog using 11ty, and also to introduce essential 11ty features.
 
-[**Review the "Quick Start"**](/index.html#quickstart) on the home page for how to get this starter up and running for your project.
+[**Review the "Quick Start"**](/#quickstart) on the home page for how to get this starter up and running for your project.
 
-Meanwhile, here are the original docs about this starter kit. Most of it you don't have to worry about, but you might want to look at VSCode Tips. 
+### Colophon
+
+Hi, I'm Stephanie Eckles - @5t3ph on [Twitter](https://twitter.com/5t3ph), [Github](https://github.com/5t3ph), [CodePen](https://codepen.com/5t3ph), and [DEV](https://dev.to/5t3ph). You may know me as the author of [ModernCSS.dev](https://moderncss.dev) or the creator of [StyleStage.dev](https://stylestage.dev). I can also be found on [egghead as an instructor](https://egghead.io/instructors/stephanie-eckles?af=2s65ms).
+
+> Check out my extended collection of Eleventy resources available on [11ty.Rocks](https://11ty.rocks)!
+
+I spent a decade creating WordPress themes and plugins then flipped to product development + leading development of a multi-platform enterprise design system. My intro to Jamstack was with Gatsby, but 11ty fills a special place that is so needed for truly static sites. I'm in love, and I think you will be, too.
 
 ### Jump to:
 
@@ -213,16 +221,3 @@ Prettier extension and update your VSCode settings to "Format on Save".
 However, to format template files Prettier doesn't recognize like `.njk`, you can update the "Language Mode" on the currently open file from "Nunjucks" (or other current templating language) to "HTML" to allow formatting to be applied. Then, flip it back to re-allow the syntax highlighting if needed.
 
 This is located in the VSCode bottom toolbar near the right-hand side and will display the value of the current file's detected language. Click the name to open the selector.
-
-### Colophon
-
-this starter kit was originally written by Stephanie Eckles - @5t3ph on [Twitter](https://twitter.com/5t3ph), [Github](https://github.com/5t3ph), [CodePen](https://codepen.com/5t3ph), and [DEV](https://dev.to/5t3ph). 
-
-Here's what she has to say about herself:
-
-
-> You may know me as the author of [ModernCSS.dev](https://moderncss.dev) or the creator of [StyleStage.dev](https://stylestage.dev). I can also be found on [egghead as an instructor](https://egghead.io/instructors/stephanie-eckles?af=2s65ms).
-
-> Check out my extended collection of Eleventy resources available on [11ty.Rocks](https://11ty.rocks)!
-
-> I spent a decade creating WordPress themes and plugins then flipped to product development + leading development of a multi-platform enterprise design system. My intro to Jamstack was with Gatsby, but 11ty fills a special place that is so needed for truly static sites. I'm in love, and I think you will be, too.
