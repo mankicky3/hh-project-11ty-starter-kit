@@ -9,8 +9,8 @@
       {% for link in collections.pages %}
       <li>
         <a
-          {% if currentUrl === link.url %}aria-current="page"{% endif %}
-          href="{{ link.url }}">
+          {% if currentUrl === (link.url | url) %}aria-current="page"{% endif %}
+          href="{{ link.url | url }}">
             {{ link.data.title }}
         </a>
       </li>
