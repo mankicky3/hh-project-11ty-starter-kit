@@ -1,0 +1,5 @@
+{"layout": "map-page.njk",
+    "permalink": "/maps/{{ page.fileSlug }}/",
+    "center": [45.505, -40],
+    "zoom": 4,
+    "tags": "maps"}

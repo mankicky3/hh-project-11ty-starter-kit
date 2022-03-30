@@ -904,3 +904,17 @@ a.tdbc-ink--dark {
 .tdbc-mb-none {
   margin-bottom: 0;
 }
+
+main.tdbc-container.map-page {
+  width: 100vw;
+  display: block;
+  max-width: none;
+}
+main.tdbc-container.map-page article.tdbc-mx-auto {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  max-width: none;
+}
+main.tdbc-container.map-page article.tdbc-mx-auto .map-related .leaflet-map {
+  min-height: 500px;
+}

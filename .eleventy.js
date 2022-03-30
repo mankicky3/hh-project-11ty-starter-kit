@@ -33,6 +33,40 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   eleventyConfig.addShortcode("packageVersion", () => `v${packageVersion}`);
 
+ // dealing with json
+ const util = require('util')
+
+ eleventyConfig.addFilter('stringify', obj => {
+   return JSON.stringify(obj)
+ });
+ // stolen from https://github.com/11ty/eleventy/issues/266#issuecomment-450397156
+ eleventyConfig.addFilter('serializeMaps', (value) => {
+   const mapData = value.map((map) => {
+     
+     return map.data.geojson ? {
+       date: map.date,
+       url: map.url,
+       data: {
+         title: map.data.title,
+         excerpt: map.data.excerpt,
+         geojson: map.data.geojson
+       },
+     } : null;
+   });
+
+   return JSON.stringify(
+     mapData.filter( data => data  ),
+    null, 2);
+ });
+
+ eleventyConfig.addFilter("findDate", (item) => {
+   let dateReference= item.data.date || item.data.year || item.data.time || item.geojson?.features?.properties?.time || item.geojson?.features?.properties?.start
+   return DateTime.fromISO(dateReference).toISODate()})
+ 
+ eleventyConfig.addFilter("dateToUnix", (item) => {
+   let dateReference= item.data.date || item.data.year || item.data.time || item.geojson?.properties?.time || item.geojson?.properties?.start
+   return DateTime.fromISO(dateReference).valueOf()})
+
   eleventyConfig.addFilter("slug", (str) => {
     if (!str) {
       return;
@@ -63,6 +97,8 @@ module.exports = function (eleventyConfig) {
       }),
   }).use(markdownItFootnote);
   eleventyConfig.setLibrary("md", markdownLibrary);
+
+  
 
   return {
     passthroughFileCopy: true,

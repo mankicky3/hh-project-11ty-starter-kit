@@ -1,0 +1,15 @@
+---
+layout: base.njk
+---
+{% include 'sitenav.njk' %}
+{% include 'header.njk' %}
+
+<main class="tdbc-container map-page">
+  <article class="tdbc-mx-auto map-page">
+    <section class="legend">
+      {{ content | safe }}
+    </section>
+    {% include 'leaflet-single.njk'  %}
+</section>
+  </article>
+</main>

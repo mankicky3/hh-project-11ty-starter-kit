@@ -1,0 +1,21 @@
+---
+permalink: '/all-map-layers.json'
+override:collections: generated-data
+
+---
+{
+"layers": [
+{% for item in collections.maps %}
+  {% if item.data.geojson %}
+    {
+    "title": "{{ item.data.title }}",
+    "url": "{{ item.url }}",
+    "time": {{ item | findDate |stringify | safe }},
+    "unixtme": {{ item | dateToUnix |stringify | safe }},
+    "content": {{ item.templateContent | stringify | safe }},
+    "geojson": {{ item.data.geojson | stringify | safe}}
+    }{% if not loop.last %},{% endif %}
+  {% endif %}
+{% endfor %}
+]
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <!-- Generated from the 11ty Netlify Jumpstart: https://github.com/5t3ph/11ty-netlify-jumpstart -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="eleventy" />
+    <title>June 21, 1941 | World War II and the Eastern Front</title>
+    <meta
+      name="description"
+      content="Start of Operation Barbarossa"
+    />
+    <link rel="icon" href="/hh-project-11ty-starter-kit/favicon.png" />
+    <link href="/hh-project-11ty-starter-kit/css/style.css" rel="stylesheet" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta
+      name="twitter:title"
+      content="June 21, 1941 | World War II and the Eastern Front"
+    />
+    <meta
+      name="twitter:description"
+      content="Start of Operation Barbarossa"
+    />
+
+    <meta
+      name="og:title"
+      content="June 21, 1941 | World War II and the Eastern Front"
+    />
+    <meta
+      name="og:description"
+      content="Start of Operation Barbarossa"
+    />
+    <meta property="og:image" content="https://hackinghistory.github.io/hh-project-11ty-starter-kit//previews/june-21-1941.png" />
+    <meta name="twitter:image" content="https://hackinghistory.github.io/hh-project-11ty-starter-kit//previews/june-21-1941.png" />
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS Feed for World War II and the Eastern Front"
+      href="/feed/"
+    />
+  </head>
+  <body class="">
+    
+
+<nav aria-labelledby="tdbc-siteid" class="tdbc-sitenav">
+  <div class="tdbc-sitenav__container">
+    <a id="tdbc-siteid" href="/"
+    
+    >World War II and the Eastern Front</a>
+    <ul role="list" class="tdbc-sitenav__navlist tdbc-list-unstyled">
+      
+      <li>
+        <a
+          
+          href="/hh-project-11ty-starter-kit/about/">
+            About
+        </a>
+      </li>
+      <li>
+        <a
+          
+          href="/hh-project-11ty-starter-kit/styledemo/">
+            Style Demo
+        </a>
+      </li>
+      <li>
+        <a
+          
+          href="/hh-project-11ty-starter-kit/testpage/">
+            What is this Project?
+        </a>
+      </li>
+      <li>
+        <a
+          
+          href="/hh-project-11ty-starter-kit/maptimeline/">
+            
+        </a>
+      </li>
+    </ul>
+</nav>
+
+
+
+<header class="tdbc-hero">
+  <div class="tdbc-container">
+    <h1 class="tdbc-ink--primary tdbc-mb-none">June 21, 1941</h1>
+    <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
+      Start of Operation Barbarossa
+    </h2>
+  </div>
+</header>
+
+
+<main class="tdbc-container map-page">
+  <article class="tdbc-mx-auto map-page">
+    <section class="legend">
+      <p>sdkgfdkj</p>
+
+    </section>
+    
+    <section class="map-related">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+              integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+              crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.control.min.css" />
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.min.js"></script>
+    <!-- <script src="/hh-project-11ty-starter-kit/js/leaflet.timeline.js"></script>  -->
+    <style>
+     .leaflet-map, #map { height: 500px; width: 100%;  }
+    </style>
+
+
+    <div id="map"></div>
+
+
+  <script>
+
+   let map = L.map('map', {
+       // oops, don'twant this on singletons I don't think? 
+       /* timeDimension: true,
+        * timeDimensionControl: true */
+   }).setView([53.291489065300226,29.355468750000004], 4);
+   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+       maxZoom: 18,
+       id: 'mapbox/streets-v11',
+       tileSize: 512,
+       zoomOffset: -1,
+       accessToken: 'pk.eyJ1IjoidGl0YW5pdW1ib25lcyIsImEiOiJjazF0bTdlNXQwM3gxM2hwbXY0bWtiamM3In0.FFPm7UIuj_b15xnd7wOQig'
+   }).addTo(map);
+   
+   globalGeoJson = L.geoJSON( {"type":"FeatureCollection","features":[{"type":"Feature","properties":{"stroke":"#555555","stroke-width":2,"stroke-opacity":1,"description":"Start of Operation Barbarossa","start":"1941-01-01","end":"1941-12-31","time":"1941-01-01 00:00:00"},"geometry":{"type":"LineString","coordinates":[[29.682312011718746,45.2110686297804],[29.654846191406246,45.24782097102814],[29.67681884765625,45.27488643704891],[29.635620117187496,45.3444241045224],[29.5477294921875,45.41002023463975],[29.46533203125,45.43893551313961],[29.35272216796875,45.454350939222046],[29.20166015625,45.43893551313961],[29.089050292968746,45.38494834654319],[28.96270751953125,45.321254361171476],[28.937988281249996,45.286481972782816],[28.86932373046875,45.30387083299528],[28.797912597656254,45.34056313889858],[28.778686523437504,45.32318553516563],[28.789672851562496,45.29614310895674],[28.751220703125004,45.282617057517406],[28.77593994140625,45.26522168032664],[28.789672851562496,45.24782097102814],[28.7567138671875,45.234283399604124],[28.69903564453125,45.226546196265026],[28.51776123046875,45.263288531496876],[28.3392333984375,45.32897866218559],[28.288421630859375,45.39555704145539],[28.282928466796875,45.44375328632588],[28.21563720703125,45.46687287100197],[28.175811767578125,45.49094569262732],[28.16619873046875,45.54964021515788],[28.09890747070312,45.60443057901899],[28.109893798828125,45.627484212338246],[28.1524658203125,45.62940492064501],[28.17306518554687,45.69275137290873],[28.126373291015625,45.80104178221643],[28.120880126953125,45.91007764944822],[28.087921142578125,46.02938880791639],[28.135986328124996,46.157956212211865],[28.11264038085937,46.221652456379104],[28.14559936523437,46.28527488854839],[28.20602416992187,46.33175800051563],[28.200531005859375,46.374411801963404],[28.245849609375,46.46813299215554],[28.211517333984375,46.51068027820581],[28.247222900390625,46.64472240881699],[28.114013671875,46.832012719114765],[28.03848266601562,47.017716353979225],[27.7899169921875,47.15236927446393],[27.788543701171875,47.209307128618676],[27.715072631835934,47.29553082741946],[27.60383605957031,47.32393057095941],[27.5701904296875,47.41322033016902],[27.588729858398438,47.457344265054225],[27.505645751953125,47.475911695481756],[27.424621582031246,47.56170075451973],[27.288665771484375,47.677871412038485],[27.25296020507812,47.72177305487703],[27.294158935546875,47.72546834774025],[27.2955322265625,47.75686775372488],[27.214508056640625,47.830674012109434],[27.24609375,47.83159592699297],[27.162322998046875,47.9264654516972],[27.165069580078125,47.99267886541119],[27.05108642578125,48.070738264258296],[27.0318603515625,48.133100659448935],[26.81625366210937,48.25119793455411],[26.637725830078125,48.25942712329832],[26.341094970703125,48.19081007655071],[26.1859130859375,48.0156497866894],[25.828857421875,47.934746769467786],[25.2740478515625,47.90529605906089],[25.059814453125,47.73562905149295],[24.9114990234375,47.720849190702324],[24.796142578125,47.82790816919329],[24.5709228515625,47.94946583788702],[24.6038818359375,48.08174889040687],[24.5050048828125,48.188063481211415],[24.521484375,48.23930899024907],[24.3292236328125,48.39638531208806],[24.1973876953125,48.381793961204984],[24.114990234374996,48.53843177405044],[23.9447021484375,48.45106561953216],[23.9007568359375,48.55661410872126],[23.7469482421875,48.65105695744785],[23.5272216796875,48.741700879765396],[23.3624267578125,48.741700879765396],[23.203125,48.78153250728974],[23.082275390625,48.85387273165654],[22.9559326171875,48.879167148960214],[22.8680419921875,49.005447494058096],[22.8680419921875,49.127813961593255],[22.708740234375,49.21759710517596],[22.74169921875,49.37522008143603],[22.6593017578125,49.51094351526262],[22.510986328124996,49.653404588437894],[22.5823974609375,49.84860975344834],[22.8900146484375,49.92647191927194],[23.1207275390625,49.95828842806968],[23.4722900390625,50.20151727860476],[23.70849609375,50.359480346298696],[23.8568115234375,50.440014664018136],[24.027099609375,50.44351305245805],[24.1094970703125,50.65642599320274],[23.961181640625,50.78162860906095],[23.9776611328125,50.84757295365389],[24.175415039062496,50.88917404890332],[23.983154296875,50.95496653774911],[23.895263671875,51.086272518565515],[23.6865234375,51.28940590271679],[23.7030029296875,51.402632657661314],[23.5546875,51.600959780448626],[23.53271484375,51.767839887322154],[23.6590576171875,51.832383069996645],[23.631591796874996,52.0862573323384],[23.302001953125,52.22779941887071],[23.1866455078125,52.288322586002984],[23.510742187499996,52.58636344214018],[23.939208984375,52.7163309360463],[23.933715820312496,52.985030365232305],[23.895263671875,53.20603255157844],[23.6810302734375,53.474969999548556],[23.510742187499996,53.94315470224928],[23.510742187499996,54.17529672404642],[23.1207275390625,54.303704439898084],[22.9119873046875,54.409340183768315],[22.873535156249996,54.863962939854765],[22.604370117187496,55.084655921502],[21.9122314453125,55.606281251302114],[21.049118041992184,55.92073845157609]]}}]} , {
+       //style: function (feature)} {
+       //return {color: feature.properties.color || "red"};
+   }
+   )
+                    .bindPopup(function (layer) {
+                        return layer.feature.properties.description;
+                    });
+   globalGeoJson.addTo(map);
+   
+  </script>
+
+
+
+
+    </section>
+
+
+
+</section>
+  </article>
+</main>
+
+    <footer class="tdbc-background--secondary">
+      <div class="tdbc-container tdbc-text-align-center">
+        <div class="tdbc-row tdbc-ink--light tdbc-mx-auto">
+          <p class="tdbc-mb-none">&copy; 2022 World War II and the Eastern Front • v1.2.0</p>
+          <span class="tdbc-row tdbc-row--center-content">
+            <a
+              href="https://twitter.com//"
+              class="tdbc-icon-button tdbc-ink--light"
+              aria-label="Twitter"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 28" aria-hidden="true" focusable="false">
+                <path
+                  d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z"
+                ></path>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

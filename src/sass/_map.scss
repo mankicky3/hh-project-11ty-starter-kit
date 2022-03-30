@@ -1,0 +1,18 @@
+main.tdbc-container.map-page {
+    width: 100vw;
+    display: block;
+    max-width: none;
+    article.tdbc-mx-auto {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        max-width: none;
+        .legend {}
+        .map-related {
+            // height: 500px;
+            // width:800px;
+            .leaflet-map {
+                min-height: 500px;
+                // width: 100%;
+            }
+        }
+    }}
