@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content="eleventy" />
-    <title>World War II and the Eastern Front</title>
+    <title>Timeline Demo | World War II and the Eastern Front</title>
     <meta
       name="description"
-      content="Mapping the Eastern Front to showcase the scale of the conflict in the region."
+      content="Here&amp;#39;s some text"
     />
     <link rel="icon" href="/hh-project-11ty-starter-kit/favicon.png" />
     <link href="/hh-project-11ty-starter-kit/css/style.css" rel="stylesheet" />
@@ -15,23 +15,23 @@
     
     <meta
       name="twitter:title"
-      content="World War II and the Eastern Front"
+      content="Timeline Demo | World War II and the Eastern Front"
     />
     <meta
       name="twitter:description"
-      content="Mapping the Eastern Front to showcase the scale of the conflict in the region."
+      content="Here&amp;#39;s some text"
     />
 
     <meta
       name="og:title"
-      content="World War II and the Eastern Front"
+      content="Timeline Demo | World War II and the Eastern Front"
     />
     <meta
       name="og:description"
-      content="Mapping the Eastern Front to showcase the scale of the conflict in the region."
+      content="Here&amp;#39;s some text"
     />
-    <meta property="og:image" content="https://hackinghistory.github.io/hh-project-11ty-starter-kit//previews/home.png" />
-    <meta name="twitter:image" content="https://hackinghistory.github.io/hh-project-11ty-starter-kit//previews/home.png" />
+    <meta property="og:image" content="https://hackinghistory.github.io/hh-project-11ty-starter-kit//previews/timeline-demo.png" />
+    <meta name="twitter:image" content="https://hackinghistory.github.io/hh-project-11ty-starter-kit//previews/timeline-demo.png" />
 
     <link
       rel="alternate"
@@ -60,6 +60,13 @@
       <li>
         <a
           
+          href="/hh-project-11ty-starter-kit/maptimeline/">
+            Timeline Demo
+        </a>
+      </li>
+      <li>
+        <a
+          
           href="/hh-project-11ty-starter-kit/styledemo/">
             Style Demo
         </a>
@@ -71,13 +78,6 @@
             What is this Project?
         </a>
       </li>
-      <li>
-        <a
-          
-          href="/hh-project-11ty-starter-kit/maptimeline/">
-            
-        </a>
-      </li>
     </ul>
 </nav>
 
@@ -85,20 +85,140 @@
 
 <header class="tdbc-hero">
   <div class="tdbc-container">
-    <h1 class="tdbc-ink--primary tdbc-mb-none"></h1>
+    <h1 class="tdbc-ink--primary tdbc-mb-none">Timeline Demo</h1>
     <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
-      
+      Here&#39;s some text
     </h2>
   </div>
 </header>
 
 
-<main class="tdbc-container">
-  <article class="tdbc-mx-auto">
+<main class="tdbc-container map-page">
+  <article class="tdbc-mx-auto map-page">
+    <section class="legend">
+      <h2 id="hello" tabindex="-1">hello<a class="tdbc-anchor" href="#hello" aria-hidden="true">🔗</a></h2>
+
+    </section>
     
+  <section class="map-related">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin=""/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.control.min.css" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.min.js"></script> -->
+     <script src="/hh-project-11ty-starter-kit/js/leaflet.timeline.js"></script>  
+    <style>
+     .leaflet-map, #map { height: 500px; width: 100%;  }
+    </style>
+
+
+    <div id="map"></div>
+
+
+  <script>
+   let map = L.map('map', {
+       // try Leaflet.timeline instead
+       /* timeDimension: true,
+        * timeDimensionControl: true,
+        * timeDimensionControlOptions: {
+        *     timeSliderDragUpdate: true,
+        *     loopButton: true,
+        *     autoPlay: true,
+        *     playerOptions: {
+        *         transitionTime: 1000,
+        *         loop: true
+        *     } */
+       //},
+   }).setView([53.291489065300226,29.355468750000004], 4);
+   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+       maxZoom: 18,
+       id: 'mapbox/streets-v11',
+       tileSize: 512,
+       zoomOffset: -1,
+       accessToken: 'pk.eyJ1IjoidGl0YW5pdW1ib25lcyIsImEiOiJjazF0bTdlNXQwM3gxM2hwbXY0bWtiamM3In0.FFPm7UIuj_b15xnd7wOQig'
+   }).addTo(map);
+   let allMapData = [],
+       allMapLayers = [],
+       allMapButtons = [],
+       allMapPages;
+   timelineControl = L.timelineSliderControl({
+       formatOutput: function (date) {
+           return new Date(date).toLocaleDateString();
+       },
+       enableKeyboardControls: true,
+   });
+   timelineControl.addTo(map);
+
+   fetch("/hh-project-11ty-starter-kit/all-map-layers.json")
+       .then(response => response.json())
+       .then(json => json.layers)
+       .then(layers => {
+           /* unitedObject = 
+            * layers.reduce */
+           layers.map(m => console.log(m.title, m.geojson.features))
+           layers.map ((thisMap) => {
+               let button = `<li><a href="${thisMap.url}">${thisMap.title}</a></li>`
+               let data = thisMap.geojson
+               timeline = L.timeline(data, {
+                   /* style: function (data) {
+                    *     return {
+                    *         stroke: false,
+                    *         color: getColorFor(data.properties.name),
+                    *         fillOpacity: 0.5,
+                    *     }; */
+                   //},
+                   waitToUpdateMap: true,
+                   onEachFeature: function (feature, layer) {
+                       layer.bindTooltip(feature.properties.name);
+                   },
+               });
+
+               timeline.addTo(map);
+               timelineControl.addTimelines(timeline);
+               /* let newLayer = L.geoJSON( thisMap.geojson , {
+                *     //style: function (feature) {
+                *     //    return {color: feature.properties.color};
+                *     //}
+                * }).bindPopup(function (layer) {
+                *     return layer.feature.properties.description;
+                * })
+                * console.log(newLayer)
+                * newLayer.addTo(map)
+                * allMapButtons += button
+                * allMapLayers += newLayer
+                * // now do timedimension-specific stuff
+                * let tdLayer = L.timeDimension.layer.geoJson(newLayer, {
+                *     updateTimeDimension: true,
+                *     duration: null,
+                *     updateTimeDimensionMode: 'extremes',
+                *     addlastPoint: true
+                * });
+                * tdLayer.addTo(map) */
+           })
+       })
+  </script>
+
+
+
+
+  </section>
+
+
+
+
+
+  
+
+
+</section>
   </article>
 </main>
-
 
     <footer class="tdbc-background--secondary">
       <div class="tdbc-container tdbc-text-align-center">

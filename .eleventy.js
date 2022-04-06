@@ -12,6 +12,8 @@ const markdownItFootnote = require("markdown-it-footnote")
 const packageVersion = require("./package.json").version;
 const pluginTOC = require('eleventy-plugin-toc');
 
+const { DateTime } = require("luxon");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(socialImages);
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -33,6 +35,19 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   eleventyConfig.addShortcode("packageVersion", () => `v${packageVersion}`);
 
+
+
+ // two date filters for the map templates
+  // I actually need to refactor/rewrite as templates nayway I think.
+  eleventyConfig.addFilter("findDate", (item) => {
+    let dateReference= item.data.date || item.data.year || item.data.time || item.geojson?.features?.properties?.time || item.geojson?.features?.properties?.start
+    return DateTime.fromISO(dateReference).toISODate()})
+  
+  eleventyConfig.addFilter("dateToUnix", (item) => {
+    let dateReference= item.data.date || item.data.year || item.data.time || item.geojson?.properties?.time || item.geojson?.properties?.start
+    return DateTime.fromISO(dateReference).valueOf()})
+
+    
  // dealing with json
  const util = require('util')
 

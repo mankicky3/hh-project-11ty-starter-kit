@@ -5,7 +5,7 @@
 	
 	<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/feed/" rel="self"/>
 	<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/"/>
-	<updated>2022-03-30T19:46:38Z</updated>
+	<updated>2022-04-02T17:15:44Z</updated>
 	<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/</id>
 	<author>
 		<name>Jakub Berkowicz</name>
@@ -14,7 +14,7 @@
 	<entry>
 		<title>About</title>
 		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/about/"/>
-		<updated>2022-03-30T18:25:01Z</updated>
+		<updated>2022-04-02T17:15:44Z</updated>
 		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/about/</id>
 		<content type="html">&lt;h2 id=&quot;intro-to-jumpstart&quot; tabindex=&quot;-1&quot;&gt;Intro to Jumpstart&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/about/#intro-to-jumpstart&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This project starter kit, &lt;a href=&quot;https://github.com/5t3ph/11ty-netlify-jumpstart&quot;&gt;forked from the original 11ty jumpstart repo&lt;/a&gt;, is intended to be &lt;em&gt;just enough&lt;/em&gt; to be a functional site using 11ty, and also to introduce essential 11ty features.&lt;/p&gt;
@@ -167,9 +167,18 @@ Prettier extension and update your VSCode settings to &amp;quot;Format on Save&a
 	</entry>
 	
 	<entry>
+		<title>Timeline Demo</title>
+		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/maptimeline/"/>
+		<updated>2022-04-02T17:15:44Z</updated>
+		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/maptimeline/</id>
+		<content type="html">&lt;h2 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;hello&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/maptimeline/#hello&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Style Demo</title>
 		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/"/>
-		<updated>2022-03-30T18:25:01Z</updated>
+		<updated>2022-04-02T17:15:44Z</updated>
 		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;Credit for the kitchen sink elements to the &lt;a href=&quot;https://github.com/pmarsceill/just-the-docs&quot;&gt;&amp;quot;Just the Docs&amp;quot;&lt;/a&gt; project by &lt;a href=&quot;https://github.com/pmarsceill&quot;&gt;pmarsceill&lt;/a&gt;, and to the original author of the starterkit.&lt;/p&gt;
@@ -258,7 +267,7 @@ Prettier extension and update your VSCode settings to &amp;quot;Format on Save&a
 	<entry>
 		<title>What is this Project?</title>
 		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/testpage/"/>
-		<updated>2022-03-30T18:25:01Z</updated>
+		<updated>2022-04-02T17:15:44Z</updated>
 		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/testpage/</id>
 		<content type="html">&lt;h1 id=&quot;topic&quot; tabindex=&quot;-1&quot;&gt;Topic&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/testpage/#topic&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;This project will focus on the Eastern Front during World War II, also known as the &amp;quot;Great Patriotic War&amp;quot; by the Russian-speaking world due to their late entry against Germany. This was the bloodiest front of the bloodiest conflict in history, seeing tens of millions of soldiers and civilians die due to combat and other external factors like famine or sickness.&lt;/p&gt;
@@ -271,13 +280,5 @@ Prettier extension and update your VSCode settings to &amp;quot;Format on Save&a
 &lt;p&gt;This website can be divided into two separate sections: a longer essay form for information, and the maps themselves. An essay will be provided for each major change in the front such as the start, the furthest extent the Germans pushed, and the furthest the Soviets pushed as well. Should there be more time more snapshots can be included, but those are the big three that need to be there. The essays will include information about general force dispositions and important events that have taken place or will soon take place, such as major battles or political events.&lt;/p&gt;
 &lt;p&gt;The maps themselves will use the Google Maps API from last year as the base layer with GeoJSON being used to create different shapes on top of the maps themselves. The reason I want to use the Google Maps API is because of prior experience, but also because it has modern-day borders already set up. While historical borders might also be an option, the goal is to visualize how far the front had gone, and I feel that this will be easier with modern-day borders to give context. Important battle locations and other events will also be marked on the map.&lt;/p&gt;
 </content>
-	</entry>
-	
-	<entry>
-		<title></title>
-		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/maptimeline/"/>
-		<updated>2022-03-30T19:46:38Z</updated>
-		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/maptimeline/</id>
-		<content type="html"></content>
 	</entry>
 </feed>

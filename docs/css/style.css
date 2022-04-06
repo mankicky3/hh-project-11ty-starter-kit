@@ -918,3 +918,7 @@ main.tdbc-container.map-page article.tdbc-mx-auto {
 main.tdbc-container.map-page article.tdbc-mx-auto .map-related .leaflet-map {
   min-height: 500px;
 }
+
+.leaflet-bottom.leaflet-left {
+  width: 100%;
+}
