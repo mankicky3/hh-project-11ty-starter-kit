@@ -5,7 +5,7 @@
 	
 	<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/feed/" rel="self"/>
 	<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/"/>
-	<updated>2022-04-02T17:15:44Z</updated>
+	<updated>2022-04-06T18:06:44Z</updated>
 	<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/</id>
 	<author>
 		<name>Jakub Berkowicz</name>
@@ -14,7 +14,7 @@
 	<entry>
 		<title>About</title>
 		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/about/"/>
-		<updated>2022-04-02T17:15:44Z</updated>
+		<updated>2022-04-06T18:06:44Z</updated>
 		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/about/</id>
 		<content type="html">&lt;h2 id=&quot;intro-to-jumpstart&quot; tabindex=&quot;-1&quot;&gt;Intro to Jumpstart&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/about/#intro-to-jumpstart&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This project starter kit, &lt;a href=&quot;https://github.com/5t3ph/11ty-netlify-jumpstart&quot;&gt;forked from the original 11ty jumpstart repo&lt;/a&gt;, is intended to be &lt;em&gt;just enough&lt;/em&gt; to be a functional site using 11ty, and also to introduce essential 11ty features.&lt;/p&gt;
@@ -167,18 +167,20 @@ Prettier extension and update your VSCode settings to &amp;quot;Format on Save&a
 	</entry>
 	
 	<entry>
-		<title>Timeline Demo</title>
+		<title>Map of the Conflict in the Eastern Front</title>
 		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/maptimeline/"/>
-		<updated>2022-04-02T17:15:44Z</updated>
+		<updated>2022-04-06T18:06:44Z</updated>
 		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/maptimeline/</id>
-		<content type="html">&lt;h2 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;hello&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/maptimeline/#hello&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
+		<content type="html">&lt;h3 id=&quot;the-scale-of-the-eastern-front&quot; tabindex=&quot;-1&quot;&gt;The Scale of the Eastern Front&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/maptimeline/#the-scale-of-the-eastern-front&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Otherwise known as the Great Patriotic War by the Soviets, the Eastern Front of World War II Would see around 30 million deaths occur, both civilian and military. Some of the bloodies battles of the war took place in this region over a thousand miles apart from the Baltic Sea to the Black Sea.&lt;/p&gt;
+&lt;p&gt;Germany&#39;s decision to invade the USSR and the resulting destruction has been atributed a one of the primary, if not the primary cause, of Germany&#39;s eventual defeat. Having to maintain both attempting to bomb Britain out of the war and fighting a war on a different front the same size as New York City to Orlando stretched German resources to the brink.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Style Demo</title>
 		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/"/>
-		<updated>2022-04-02T17:15:44Z</updated>
+		<updated>2022-04-06T18:06:44Z</updated>
 		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/styledemo/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;Credit for the kitchen sink elements to the &lt;a href=&quot;https://github.com/pmarsceill/just-the-docs&quot;&gt;&amp;quot;Just the Docs&amp;quot;&lt;/a&gt; project by &lt;a href=&quot;https://github.com/pmarsceill&quot;&gt;pmarsceill&lt;/a&gt;, and to the original author of the starterkit.&lt;/p&gt;
@@ -267,7 +269,7 @@ Prettier extension and update your VSCode settings to &amp;quot;Format on Save&a
 	<entry>
 		<title>What is this Project?</title>
 		<link href="https://hackinghistory.github.io/hh-project-11ty-starter-kit/testpage/"/>
-		<updated>2022-04-02T17:15:44Z</updated>
+		<updated>2022-04-06T18:06:44Z</updated>
 		<id>https://hackinghistory.github.io/hh-project-11ty-starter-kit/testpage/</id>
 		<content type="html">&lt;h1 id=&quot;topic&quot; tabindex=&quot;-1&quot;&gt;Topic&lt;a class=&quot;tdbc-anchor&quot; href=&quot;https://hackinghistory.github.io/hh-project-11ty-starter-kit/testpage/#topic&quot; aria-hidden=&quot;true&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;This project will focus on the Eastern Front during World War II, also known as the &amp;quot;Great Patriotic War&amp;quot; by the Russian-speaking world due to their late entry against Germany. This was the bloodiest front of the bloodiest conflict in history, seeing tens of millions of soldiers and civilians die due to combat and other external factors like famine or sickness.&lt;/p&gt;
