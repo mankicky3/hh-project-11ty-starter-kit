@@ -11,10 +11,12 @@ const markdownItFootnote = require("markdown-it-footnote")
 // Local utilities/data
 const packageVersion = require("./package.json").version;
 const pluginTOC = require('eleventy-plugin-toc');
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(socialImages);
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);

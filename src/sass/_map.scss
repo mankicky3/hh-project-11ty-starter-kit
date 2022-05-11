@@ -5,6 +5,7 @@ main.tdbc-container.map-page {
     article.tdbc-mx-auto {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
+        gap: 20px;
         max-width: none;
         .legend {}
         .map-related {
@@ -12,7 +13,6 @@ main.tdbc-container.map-page {
             // width:800px;
             .leaflet-map {
                 min-height: 500px;
-                margin: 22px;
                 // width: 100%;
             }
         }

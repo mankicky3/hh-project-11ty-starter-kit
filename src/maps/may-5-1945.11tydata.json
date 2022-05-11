@@ -7,10 +7,10 @@
         "stroke": "red",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "description": "Test Fix Later",
+        "description": "",
         "start": "1945-01-01",
         "end": "1945-12-31",
-        "time": "1975-01-01 00:00:00"
+        "time": "1945-12-31 00:00:00"
   },
         "geometry": {
           "type": "LineString",

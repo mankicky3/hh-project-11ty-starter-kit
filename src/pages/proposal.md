@@ -1,6 +1,7 @@
 ---
 title: "What is this Project?"
 description: "What this is, who it's for, and what the plan is."
+date: 1939-09-01
 ---
 
 # Topic
