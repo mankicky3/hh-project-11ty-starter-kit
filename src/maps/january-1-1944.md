@@ -1,0 +1,6 @@
+---
+title: "January 1, 1944"
+description: "Start of Operation Barbarossa"
+override:center: [53.291489065300226,29.355468750000004]
+year: 1944
+---
